@@ -143,11 +143,11 @@ nav .dropdown:hover .dropdown-content {
 }
 
 /*-start section--*/
-.section {
+section {
   padding: 40px 0;
   text-align: center;
 }
-.section h2 {
+section h2 {
   font-size: 35px;
   color: #333;
 }
@@ -159,7 +159,7 @@ nav .dropdown:hover .dropdown-content {
   background-color: #11b7e6;
   margin: 4px auto 40px;
 }
-.section p {
+section p {
   max-width: 720px;
   margin: 30px auto;
 }
@@ -203,16 +203,16 @@ nav .dropdown:hover .dropdown-content {
   flex-direction: column;
 }
 
-.section > div:nth-of-type(even) {
+section > div:nth-of-type(even) {
   background: #fff;
 }
 
-.section > div:nth-of-type(even) .container {
+section > div:nth-of-type(even) .container {
   flex-direction: column;
 }
 
-.section > div:nth-of-type(even) h2,
-.section > div:nth-of-type(even) p {
+section > div:nth-of-type(even) h2,
+section > div:nth-of-type(even) p {
   color: #333;
 }
 
