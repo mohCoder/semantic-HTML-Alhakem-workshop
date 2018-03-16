@@ -42,18 +42,18 @@ header {
   padding: 12px 15px 0px;
 }
 
-#navbar ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-#navbar li {
+nav li {
   float: right;
 }
 
-#navbar li a {
+nav li a {
   display: inline-block;
   padding: 17px 15px;
   font-size: 14px;
@@ -63,7 +63,7 @@ header {
   transition: all 0.3s;
 }
 
-#navbar .dropdown-content {
+nav .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -72,25 +72,25 @@ header {
   z-index: 1;
 }
 
-#navbar .dropdown-content li {
+nav .dropdown-content li {
   float: none;
 }
 
-#navbar .dropdown-content a {
+nav .dropdown-content a {
   display: block;
   padding: 6px 15px;
   text-align: right;
   border-bottom: 2px solid #fff;
 }
 
-#navbar .dropdown-content a:hover,
-#navbar li a:hover {
+nav .dropdown-content a:hover,
+nav li a:hover {
   border-bottom: 2px solid #02b3e4;
   color: #00aaf6;
   background: #fff;
 }
 
-#navbar .dropdown:hover .dropdown-content {
+nav .dropdown:hover .dropdown-content {
   display: block;
 }
 
